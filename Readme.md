@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Array部分
 561. Array Partition I
 
@@ -13,3 +14,7 @@
   [1]: ./images/1524450896754.jpg
   [2]: ./images/1524451902813.jpg
   [3]: ./images/1524451921024.jpg
+=======
+This Repo record the solutions about LeetCode.
+And the LeetCode.pdf is the note during thinking and writing code...
+>>>>>>> e0ca59d453ce45c1eb2ea52a24f070ca05c9b91d
