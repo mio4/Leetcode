@@ -1,1 +1,2 @@
- - 这个仓库记录了LeetCode （Java版本）题解以及相关思路总结
+- Solution ：使用Java解决牛客网上的LeetCode试题
+- Summary：在解题过程中的记录
