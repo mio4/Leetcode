@@ -1,12 +1,11 @@
-package DynamicProgramming;
+package DynamicProgramming.Triangle;
 
 import java.util.ArrayList;
 
-/**
- * https://www.nowcoder.com/practice/2b7995aa4f7949d99674d975489cb7da?tpId=46&tqId=29060&tPage=7&rp=7&ru=/ta/leetcode&qru=/ta/leetcode/question-ranking
- */
-public class Triangle {
-	public static int miniumTotal(ArrayList<ArrayList<Integer>> triangle){
+public class Solution {
+
+	public int minimumTotal(ArrayList<ArrayList<Integer>> triangle) {
+		ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
 		int min = 0;
 
 		return min;
@@ -28,6 +27,5 @@ public class Triangle {
 		l4.add(1);
 		l4.add(8);
 		l4.add(3);
-		System.out.println(miniumTotal(triangle));
 	}
 }
