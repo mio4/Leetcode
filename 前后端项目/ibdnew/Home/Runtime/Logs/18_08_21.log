@@ -1,0 +1,12 @@
+[ 2018-08-21T21:15:52+08:00 ] 123.120.78.59 /ibdnew/index.php/login/login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000669s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `passwd` FROM `user` WHERE ( name="visitor" ) LIMIT 1   [ RunTime:0.000241s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `uid` FROM `user` WHERE ( name="visitor" ) LIMIT 1   [ RunTime:0.000239s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `email` FROM `user` WHERE ( name="visitor" ) LIMIT 1   [ RunTime:0.000161s ]
+

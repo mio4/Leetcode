@@ -1,0 +1,370 @@
+[ 2018-08-30T10:39:13+08:00 ] 124.65.138.106 /ibdnew/index.php/login/login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000660s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `passwd` FROM `user` WHERE ( name="visitor" ) LIMIT 1   [ RunTime:0.000219s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `uid` FROM `user` WHERE ( name="visitor" ) LIMIT 1   [ RunTime:0.000196s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `email` FROM `user` WHERE ( name="visitor" ) LIMIT 1   [ RunTime:0.000149s ]
+
+[ 2018-08-30T10:43:59+08:00 ] 124.65.138.106 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000701s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000404s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000266s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000274s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000290s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `ibdnew` [ RunTime:0.000394s ]
+ERR: 1146:Table 'ibdnew.ibdnew' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ibdnew`
+SQL: SELECT `med_name`,`pro_name`,`specification` FROM `med_info` [ RunTime:0.000273s ]
+
+[ 2018-08-30T10:56:34+08:00 ] 124.65.138.106 /ibdnew/index.php/new/savePatient
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `basic` [ RunTime:0.000750s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `cnum` FROM `basic` WHERE ( cnum = "2387225" ) LIMIT 1   [ RunTime:0.000223s ]
+SQL: INSERT INTO `basic` (`type`,`cnum`,`snum`,`name`,`sex`,`birth`,`province`,`telephone`,`mobile1`,`mobile2`,`doctor_in_charge`,`other`,`ethnic`) VALUES ('0','2387225','','李玮丽',1,'1961-09-09','内蒙古自治区','','18847998888','','董锦沛','','蒙古族') [ RunTime:0.006005s ]
+
+[ 2018-08-30T10:56:47+08:00 ] 124.65.138.106 /ibdnew/index.php/new/savePatient
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `basic` [ RunTime:0.000739s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `cnum` FROM `basic` WHERE ( cnum = "2387225" ) LIMIT 1   [ RunTime:0.000227s ]
+
+[ 2018-08-30T10:56:59+08:00 ] 124.65.138.106 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000719s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000421s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000299s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000251s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000345s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `ibdnew` [ RunTime:0.000457s ]
+ERR: 1146:Table 'ibdnew.ibdnew' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ibdnew`
+SQL: SELECT `med_name`,`pro_name`,`specification` FROM `med_info` [ RunTime:0.000254s ]
+
+[ 2018-08-30T10:58:59+08:00 ] 124.65.138.106 /ibdnew/index.php/show/saveRecord
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+NOTIC: [2048] Declaration of ShowAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/ShowAction.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `hospital_record` [ RunTime:0.000799s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `hospital_record` WHERE ( cnum = "2387225" and recordStime = "2018-07-25" )  [ RunTime:0.000240s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `times` FROM `hospital_record` WHERE ( cnum = "2387225" )  [ RunTime:0.000198s ]
+SQL: INSERT INTO `hospital_record` (`cnum`,`recordStime`,`recordSptime`,`times`) VALUES ('2387225','2018-07-25','2018-08-24',1) [ RunTime:0.000158s ]
+
+[ 2018-08-30T10:59:05+08:00 ] 124.65.138.106 /ibdnew/index.php/show/person
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+NOTIC: [2048] Declaration of ShowAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/ShowAction.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `basic` [ RunTime:0.000901s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `basic` WHERE ( cnum = "2387225" )  [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `hospital_record` [ RunTime:0.000471s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `hospital_record` WHERE ( cnum = "2387225" )  [ RunTime:0.000169s ]
+
+[ 2018-08-30T11:06:52+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_blood_regular_test/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `lab-blood_regular_test` [ RunTime:0.000748s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-blood_regular_test` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: INSERT INTO `lab-blood_regular_test` (`cnum`,`time`,`RBC`,`HGB`,`HCT`,`MCV`,`MCH`,`MCHC`,`WBC`,`NE`,`LY`,`MO`,`EO`,`PLT`) VALUES ('2387225','2018-07-25 00:00:00','4.05','104','31.4','77.6','25.7','331.0','5.9','4.4','0.8','0.6','0.2','336') [ RunTime:0.003671s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 468 行.
+
+[ 2018-08-30T14:28:45+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_blood_regular_test/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `lab-blood_regular_test` [ RunTime:0.000893s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-blood_regular_test` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000283s ]
+
+[ 2018-08-30T14:30:16+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_blood_regular_test/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `lab-blood_regular_test` [ RunTime:0.000795s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-blood_regular_test` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000321s ]
+
+[ 2018-08-30T14:36:20+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_urine_analyse/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `lab-urine_analyse` [ RunTime:0.000720s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-urine_analyse` WHERE ( cnum = "2387225" AND time = "2018-07-26 00:00:00" ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: INSERT INTO `lab-urine_analyse` (`cnum`,`time`,`BLD`,`PRO`,`WBC_microscopy`,`WBC_microscopy_count`,`RBC_microscopy`,`RBC_microscopy_count`) VALUES ('2387225','2018-07-26 00:00:00','0','0','0','5-10','0','0') [ RunTime:0.004158s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 537 行.
+
+[ 2018-08-30T14:39:20+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_stool_routine/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `lab-stool_routine` [ RunTime:0.000693s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-stool_routine` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000229s ]
+SQL: INSERT INTO `lab-stool_routine` (`cnum`,`time`,`chemical_occult_blood`,`immunoassay_occult_blood`,`stool_WBC_microscopy`,`stool_WBC_microscopy_count`,`stool_RBC_microscopy`,`stool_RBC_microscopy_count`) VALUES ('2387225','2018-07-25 00:00:00',0,0,0,'50-60',1,'0') [ RunTime:0.003369s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 573 行.
+
+[ 2018-08-30T14:39:55+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_ret/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `lab-ret` [ RunTime:0.000752s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-ret` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: INSERT INTO `lab-ret` (`cnum`,`time`,`Ret`) VALUES ('2387225','2018-07-25 00:00:00','44') [ RunTime:0.003917s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 502 行.
+
+[ 2018-08-30T14:40:50+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_nephric_function/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `lab-nephric_function` [ RunTime:0.000933s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-nephric_function` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000339s ]
+SQL: INSERT INTO `lab-nephric_function` (`cnum`,`time`,`creatinine`,`urea`,`uric_acid`) VALUES ('2387225','2018-07-25 00:00:00','51.53','1.07','191') [ RunTime:0.003691s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 644 行.
+
+[ 2018-08-30T14:41:51+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_liver_function/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `lab-liver_function` [ RunTime:0.000731s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-liver_function` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: INSERT INTO `lab-liver_function` (`cnum`,`time`,`ALT`,`ALB`,`AST`,`ALP`,`GGT`,`IBIL`,`DBIL`,`PCHE`,`PA`,`TBA`) VALUES ('2387225','2018-07-25 00:00:00','6','31.3','10','50','15','12.4','3.42','3116','70.2','3.09') [ RunTime:0.003771s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 678 行.
+
+[ 2018-08-30T14:42:44+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_hemostasis_coagulation/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `lab-hemostasis_coagulation` [ RunTime:0.000841s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-hemostasis_coagulation` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000355s ]
+SQL: INSERT INTO `lab-hemostasis_coagulation` (`cnum`,`time`,`PT`,`APTT`,`FIB`,`D_D`,`FDP`,`TT`) VALUES ('2387225','2018-07-25 00:00:00','13.5','31.6','3.84','0.42','3.4','13.5') [ RunTime:0.003963s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 712 行.
+
+[ 2018-08-30T14:44:30+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_chemical/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `lab-chemical` [ RunTime:0.000725s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-chemical` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000242s ]
+SQL: INSERT INTO `lab-chemical` (`cnum`,`time`,`K`,`Ca`,`Mg`,`Cl`,`P`,`Na`) VALUES ('2387225','2018-07-25 00:00:00','2.87','135.07','0.75','104.3','0.7','135.07') [ RunTime:0.004628s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 782 行.
+
+[ 2018-08-30T14:45:42+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_anemia/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `lab-anemia` [ RunTime:0.000782s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-anemia` WHERE ( cnum = "2387225" AND time = "2018-07-26 00:00:00" ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: INSERT INTO `lab-anemia` (`cnum`,`time`,`TIBC`,`VB12`,`ferritin`,`serum_iron`,`folic_acid`) VALUES ('2387225','2018-07-26 00:00:00','18.5','>1107.00','285.3','3.5','8.07') [ RunTime:0.003152s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 817 行.
+
+[ 2018-08-30T14:48:10+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_anemia/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `lab-anemia` [ RunTime:0.000690s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-anemia` WHERE ( cnum = "2387225" AND time = "2018-07-26 00:00:00" ) LIMIT 1   [ RunTime:0.000271s ]
+
+[ 2018-08-30T14:53:08+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_blood_lipid/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `lab-blood_lipid` [ RunTime:0.000711s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-blood_lipid` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: INSERT INTO `lab-blood_lipid` (`cnum`,`time`,`TCHO`,`HDL_C`,`LDL_C`,`TG`) VALUES ('2387225','2018-07-25 00:00:00','1.84','0.45','1.08','0.95') [ RunTime:0.003742s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 886 行.
+
+[ 2018-08-30T15:00:15+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_ESR/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `lab-esr` [ RunTime:0.000744s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-esr` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: INSERT INTO `lab-esr` (`cnum`,`time`,`ESR`) VALUES ('2387225','2018-07-25 00:00:00','25') [ RunTime:0.003910s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 954 行.
+
+[ 2018-08-30T15:00:39+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_crp/mode/undefined
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `lab-crp` [ RunTime:0.000706s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-crp` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000253s ]
+SQL: INSERT INTO `lab-crp` (`cnum`,`time`,`CRP`) VALUES ('2387225','2018-07-25 00:00:00','147.63') [ RunTime:0.003367s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 989 行.
+
+[ 2018-08-30T15:02:41+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_pct/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `lab-pct` [ RunTime:0.000684s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-pct` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: INSERT INTO `lab-pct` (`cnum`,`time`,`PCT`) VALUES ('2387225','2018-07-25 00:00:00','0.33') [ RunTime:0.004535s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 1023 行.
+
+[ 2018-08-30T15:04:51+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_tc_bc/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `lab-tc_bc` [ RunTime:0.000754s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-tc_bc` WHERE ( cnum = "2387225" AND time = "2018-07-26 00:00:00" ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: INSERT INTO `lab-tc_bc` (`cnum`,`time`,`TH`,`TS`,`B`,`NK`) VALUES ('2387225','2018-07-26 00:00:00','356.14','540.2','152.69','154.15') [ RunTime:0.003966s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 609 行.
+
+[ 2018-08-30T15:06:33+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_t_spot_tb/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `lab-t_spot_tb` [ RunTime:0.000968s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-t_spot_tb` WHERE ( cnum = "2387225" AND time = "2018-07-26 00:00:00" ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: INSERT INTO `lab-t_spot_tb` (`cnum`,`time`,`A_Ag`,`B_Ag`) VALUES ('2387225','2018-07-26 00:00:00','0.00','1.00') [ RunTime:0.003667s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 1093 行.
+
+[ 2018-08-30T15:07:01+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_anca/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `lab-anca` [ RunTime:0.000832s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-anca` WHERE ( cnum = "2387225" AND time = "2018-07-26 00:00:00" ) LIMIT 1   [ RunTime:0.000325s ]
+SQL: INSERT INTO `lab-anca` (`cnum`,`time`,`p_ANCA`,`c_ANCA`) VALUES ('2387225','2018-07-26 00:00:00','0','0') [ RunTime:0.003638s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 1127 行.
+
+[ 2018-08-30T15:07:33+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_hbv/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `lab-hbv` [ RunTime:0.000709s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-hbv` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: INSERT INTO `lab-hbv` (`cnum`,`time`,`HBeAg`,`HBsAg`,`Anti_HBc`,`Anti_HBe`,`Anti_HBs`) VALUES ('2387225','2018-07-25 00:00:00','0','0','0','0','0') [ RunTime:0.003492s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 1162 行.
+
+[ 2018-08-30T15:07:48+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_infection_screening/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `lab-infection_screening` [ RunTime:0.000788s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-infection_screening` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000303s ]
+SQL: INSERT INTO `lab-infection_screening` (`cnum`,`time`,`Anti_HCV`,`HIV`,`TP_Ab`) VALUES ('2387225','2018-07-25 00:00:00','0','0','0') [ RunTime:0.004307s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 1231 行.
+
+[ 2018-08-30T15:08:47+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_immune_globulin_complement_rf/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `lab-immune_globulin_complement_rf` [ RunTime:0.000692s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-immune_globulin_complement_rf` WHERE ( cnum = "2387225" AND time = "2018-07-26 00:00:00" ) LIMIT 1   [ RunTime:0.000239s ]
+SQL: INSERT INTO `lab-immune_globulin_complement_rf` (`cnum`,`time`,`IgG`,`IgG4`,`IgM`,`IgA`,`C3`,`C4`) VALUES ('2387225','2018-07-26 00:00:00','8.84','','0.57','2.65','','') [ RunTime:0.003963s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 1334 行.
+
+[ 2018-08-30T15:09:22+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_cmv/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `lab-cmv` [ RunTime:0.000891s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-cmv` WHERE ( cnum = "2387225" AND time = "2018-07-31 00:00:00" ) LIMIT 1   [ RunTime:0.000311s ]
+SQL: INSERT INTO `lab-cmv` (`cnum`,`time`,`CMV_DNA_blood`,`CMV_DNA_lymphocyte`,`CMV_IgM`,`CMV_IgG`) VALUES ('2387225','2018-07-31 00:00:00','<500','','','') [ RunTime:0.003853s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 1403 行.
+
+[ 2018-08-30T15:09:40+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_ebv/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `lab-ebv` [ RunTime:0.000704s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-ebv` WHERE ( cnum = "2387225" AND time = "2018-07-31 00:00:00" ) LIMIT 1   [ RunTime:0.000241s ]
+SQL: INSERT INTO `lab-ebv` (`cnum`,`time`,`EBV_DNA_blood`,`EBV_DNA_lymphocyte`,`EBV_IgM`,`EBV_IgG`) VALUES ('2387225','2018-07-31 00:00:00','<500','','','') [ RunTime:0.003999s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 1436 行.
+
+[ 2018-08-30T15:10:42+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_thyroid_function/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `lab-thyroid_function` [ RunTime:0.000699s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-thyroid_function` WHERE ( cnum = "2387225" AND time = "2018-08-15 00:00:00" ) LIMIT 1   [ RunTime:0.000231s ]
+SQL: INSERT INTO `lab-thyroid_function` (`cnum`,`time`,`T3`,`T4`,`FT3`,`FT4`,`TSH`) VALUES ('2387225','2018-08-15 00:00:00','1.46','80','4.09','12.63','3.00') [ RunTime:0.004688s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 1265 行.
+
+[ 2018-08-30T15:11:36+08:00 ] 124.65.138.106 /ibdnew/index.php/test/save_lab_stool_theory/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `lab-stool_theory` [ RunTime:0.000714s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-stool_theory` WHERE ( cnum = "2387225" AND time = "2018-07-25 00:00:00" ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: INSERT INTO `lab-stool_theory` (`cnum`,`time`,`ova`,`Tuberculous_smear`,`Fungal_smear`,`coccus_bacillus_ratio`,`A_B`) VALUES ('2387225','2018-07-25 00:00:00',0,0,0,0,0.02) [ RunTime:0.004286s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 920 行.
+
+[ 2018-08-30T15:21:22+08:00 ] 124.65.138.106 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000653s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000368s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000313s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000249s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000277s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `ibdnew` [ RunTime:0.000381s ]
+ERR: 1146:Table 'ibdnew.ibdnew' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ibdnew`
+SQL: SELECT `med_name`,`pro_name`,`specification` FROM `med_info` [ RunTime:0.000256s ]
+

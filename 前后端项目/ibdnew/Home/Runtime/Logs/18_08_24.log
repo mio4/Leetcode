@@ -1,0 +1,54 @@
+[ 2018-08-24T07:57:17+08:00 ] 124.65.138.106 /ibdnew/index.php/login/login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000900s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `passwd` FROM `user` WHERE ( name="visitor" ) LIMIT 1   [ RunTime:0.000264s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `uid` FROM `user` WHERE ( name="visitor" ) LIMIT 1   [ RunTime:0.000218s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `email` FROM `user` WHERE ( name="visitor" ) LIMIT 1   [ RunTime:0.000183s ]
+
+[ 2018-08-24T10:20:18+08:00 ] 124.65.138.106 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000791s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000452s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000269s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000263s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000323s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `ibdnew` [ RunTime:0.000368s ]
+ERR: 1146:Table 'ibdnew.ibdnew' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ibdnew`
+SQL: SELECT `med_name`,`pro_name`,`specification` FROM `med_info` [ RunTime:0.000237s ]
+
+[ 2018-08-24T10:28:41+08:00 ] 124.65.138.106 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.001043s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000421s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000333s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000345s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000309s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `ibdnew` [ RunTime:0.000438s ]
+ERR: 1146:Table 'ibdnew.ibdnew' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ibdnew`
+SQL: SELECT `med_name`,`pro_name`,`specification` FROM `med_info` [ RunTime:0.000261s ]
+

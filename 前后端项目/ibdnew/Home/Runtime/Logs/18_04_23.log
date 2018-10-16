@@ -1,0 +1,75 @@
+[ 2018-04-23T18:03:57+08:00 ] 124.65.138.106 /ibdnew/index.php/login/login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000870s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `passwd` FROM `user` WHERE ( name="visitor" ) LIMIT 1   [ RunTime:0.000204s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `uid` FROM `user` WHERE ( name="visitor" ) LIMIT 1   [ RunTime:0.000178s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `email` FROM `user` WHERE ( name="visitor" ) LIMIT 1   [ RunTime:0.000188s ]
+
+[ 2018-04-23T18:04:09+08:00 ] 124.65.138.106 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000625s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000197s ]
+
+[ 2018-04-23T18:04:33+08:00 ] 124.65.138.106 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000665s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000189s ]
+
+[ 2018-04-23T18:04:40+08:00 ] 124.65.138.106 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000652s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000190s ]
+
+[ 2018-04-23T18:04:46+08:00 ] 124.65.138.106 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000610s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000191s ]
+
+[ 2018-04-23T18:04:58+08:00 ] 124.65.138.106 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000862s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000209s ]
+
+[ 2018-04-23T18:05:24+08:00 ] 124.65.138.106 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000620s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000198s ]
+
+[ 2018-04-23T18:05:29+08:00 ] 124.65.138.106 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000914s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000258s ]
+

@@ -1,0 +1,111 @@
+[ 2018-03-18T22:09:14+08:00 ] 106.39.41.139 /ibdnew/index.php/login/login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000586s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `passwd` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000238s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `uid` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000139s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `email` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000129s ]
+
+[ 2018-03-18T22:09:14+08:00 ] 106.39.41.139 /ibdnew/index.php
+ERR: 模板不存在[./Home/Tpl/./Home/Tpl/Index/Index.html.html]
+
+[ 2018-03-18T22:10:45+08:00 ] 106.39.41.139 /ibdnew/index.php/new/savePatient
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `basic` [ RunTime:0.000693s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `cnum` FROM `basic` WHERE ( cnum = "15061207" ) LIMIT 1   [ RunTime:0.000185s ]
+SQL: INSERT INTO `basic` (`type`,`cnum`,`snum`,`name`,`sex`,`birth`,`province`,`telephone`,`mobile1`,`mobile2`,`doctor_in_charge`,`other`,`ethnic`) VALUES ('0','15061207','15061207','网页端测试',1,'2011-03-16','US','45645','456746','7896','测试医生2','null','78967') [ RunTime:0.003997s ]
+
+[ 2018-03-18T22:10:47+08:00 ] 106.39.41.139 /ibdnew/index.php/show/person/cnum/15061207
+ERR: 模板不存在[./Home/Tpl/Show/person.html]
+
+[ 2018-03-18T22:12:02+08:00 ] 106.39.41.139 /ibdnew/index.php/show/person/cnum/15061207
+ERR: 模板不存在[./Home/Tpl/Show/person.html]
+
+[ 2018-03-18T22:12:05+08:00 ] 106.39.41.139 /ibdnew/index.php/show/person/cnum/15061207
+ERR: 模板不存在[./Home/Tpl/Show/person.html]
+
+[ 2018-03-18T22:12:09+08:00 ] 106.39.41.139 /ibdnew/index.php/show/table
+ERR: 模板不存在[./Home/Tpl/Show/table.html]
+
+[ 2018-03-18T22:12:25+08:00 ] 106.39.41.139 /ibdnew/index.php/show/table
+ERR: 模板不存在[./Home/Tpl/Show/table.html]
+
+[ 2018-03-18T22:12:28+08:00 ] 106.39.41.139 /ibdnew/index.php/show/table
+ERR: 模板不存在[./Home/Tpl/Show/table.html]
+
+[ 2018-03-18T22:12:30+08:00 ] 106.39.41.139 /ibdnew/index.php/show/table
+ERR: 模板不存在[./Home/Tpl/Show/table.html]
+
+[ 2018-03-18T22:12:30+08:00 ] 106.39.41.139 /ibdnew/index.php/show/table
+ERR: 模板不存在[./Home/Tpl/Show/table.html]
+
+[ 2018-03-18T22:12:32+08:00 ] 106.39.41.139 /ibdnew/index.php/show/table
+ERR: 模板不存在[./Home/Tpl/Show/table.html]
+
+[ 2018-03-18T22:12:33+08:00 ] 106.39.41.139 /ibdnew/index.php/show/table
+ERR: 模板不存在[./Home/Tpl/Show/table.html]
+
+[ 2018-03-18T22:12:55+08:00 ] 106.39.41.139 /ibdnew/index.php/show/table
+ERR: 模板不存在[./Home/Tpl/Show/table.html]
+
+[ 2018-03-18T22:13:20+08:00 ] 106.39.41.139 /ibdnew/index.php/show/table
+ERR: 模板不存在[./Home/Tpl/Show/table.html]
+
+[ 2018-03-18T22:13:48+08:00 ] 106.39.41.139 /ibdnew/index.php/show/table
+ERR: 无法加载模块:Show
+
+[ 2018-03-18T22:14:16+08:00 ] 106.39.41.139 /ibdnew/index.php/show/table
+ERR: 模板不存在[./Home/Tpl/Show/table.html]
+
+[ 2018-03-18T22:14:17+08:00 ] 106.39.41.139 /ibdnew/index.php/show/table
+ERR: 模板不存在[./Home/Tpl/Show/table.html]
+
+[ 2018-03-18T22:14:21+08:00 ] 106.39.41.139 /ibdnew/index.php/show/table
+ERR: 模板不存在[./Home/Tpl/Show/table.html]
+
+[ 2018-03-18T22:15:58+08:00 ] 106.39.41.139 /ibdnew/index.php/new/savePatient
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `basic` [ RunTime:0.000691s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `cnum` FROM `basic` WHERE ( cnum = "web15061201" ) LIMIT 1   [ RunTime:0.000197s ]
+SQL: INSERT INTO `basic` (`type`,`cnum`,`snum`,`name`,`sex`,`birth`,`province`,`telephone`,`mobile1`,`mobile2`,`doctor_in_charge`,`other`,`ethnic`) VALUES ('0','web15061201','','服务器端测试1',1,'2011-03-18','456','456','456','456','456','','456') [ RunTime:0.003065s ]
+
+[ 2018-03-18T22:17:51+08:00 ] 106.39.41.139 /ibdnew/index.php/new/grid.html
+ERR: 非法操作:grid
+
+[ 2018-03-18T22:56:41+08:00 ] 106.39.41.186 /ibdnew/index.php/login/login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000715s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `passwd` FROM `user` WHERE ( name="lnn97215" ) LIMIT 1   [ RunTime:0.000210s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `uid` FROM `user` WHERE ( name="lnn97215" ) LIMIT 1   [ RunTime:0.000149s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `email` FROM `user` WHERE ( name="lnn97215" ) LIMIT 1   [ RunTime:0.000162s ]
+
+[ 2018-03-18T22:56:46+08:00 ] 106.39.41.186 /ibdnew/index.php/login/login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000655s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `passwd` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000209s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `uid` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000168s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `email` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000136s ]
+
+[ 2018-03-18T23:07:15+08:00 ] 106.39.41.186 /ibdnew/index.php/new/layouts.html
+ERR: 非法操作:layouts
+

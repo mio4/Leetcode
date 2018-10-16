@@ -1,0 +1,1400 @@
+[ 2018-05-29T00:41:39+08:00 ] 219.239.227.218 /ibdnew/index.php/login/login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000617s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `passwd` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000212s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `uid` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000181s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `email` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000188s ]
+
+[ 2018-05-29T00:51:45+08:00 ] 219.239.227.218 /ibdnew/index.php/New/newMedicine
+ERR: 非法操作:newmedicine
+
+[ 2018-05-29T00:53:43+08:00 ] 219.239.227.218 /ibdnew/index.php/New/newMedicine
+ERR: 非法操作:newmedicine
+
+[ 2018-05-29T00:53:48+08:00 ] 219.239.227.218 /ibdnew/index.php/New/newMedicine
+ERR: 非法操作:newmedicine
+
+[ 2018-05-29T00:56:30+08:00 ] 219.239.227.218 /ibdnew/index.php/login/login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000660s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `passwd` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000210s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `uid` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000153s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `email` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000140s ]
+
+[ 2018-05-29T00:56:37+08:00 ] 219.239.227.218 /ibdnew/index.php/login/login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000604s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `passwd` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000194s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `uid` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000145s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `email` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000133s ]
+
+[ 2018-05-29T00:56:44+08:00 ] 219.239.227.218 /ibdnew/index.php/New/newMedicine
+ERR: 非法操作:newmedicine
+
+[ 2018-05-29T01:08:45+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000655s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000130s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000107s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000102s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000144s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000135s ]
+
+[ 2018-05-29T01:16:17+08:00 ] 219.239.227.218 /ibdnew/index.php/Symptoms/layouts.html
+ERR: 非法操作:layouts
+
+[ 2018-05-29T01:18:50+08:00 ] 219.239.227.218 /ibdnew/index.php/Symptoms/widgets.html
+ERR: 非法操作:widgets
+
+[ 2018-05-29T01:20:23+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000697s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000128s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000105s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000103s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000116s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000112s ]
+
+[ 2018-05-29T01:22:27+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000662s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000134s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000103s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000123s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000134s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000103s ]
+
+[ 2018-05-29T01:22:39+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000845s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000135s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000103s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000105s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000144s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000117s ]
+
+[ 2018-05-29T01:23:27+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000641s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000138s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000102s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000114s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000119s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000101s ]
+
+[ 2018-05-29T01:24:35+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000621s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000137s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000140s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000098s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000095s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000096s ]
+
+[ 2018-05-29T01:25:23+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/new_classname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+NOTIC: [8] Undefined variable: con /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000610s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_5asa" ) LIMIT 1   [ RunTime:0.000171s ]
+SQL: INSERT INTO `med_belong_info` (`classname`) VALUES ('med_5asa') [ RunTime:0.000195s ]
+SQL: CREATE TABLE `ibdnew`.`med_5asa` 
+					( `cnum` VARCHAR(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+						`med_name` INT(3) NOT NULL,
+						`med_dose` 	DOUBLE NOT NULL,
+						`med_times` INT(1) NOT NULL,
+						`med_stime` DATE NOT NULL,
+						`med_sptime` date  ,
+						
+					) ENGINE = MyISAM,AUTO_INCREMENT = 0 [ RunTime:0.000098s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ENGINE = MyISAM,AUTO_INCREMENT = 0' at line 9
+ [ SQL语句 ] : CREATE TABLE `ibdnew`.`med_5asa` 
+					( `cnum` VARCHAR(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+						`med_name` INT(3) NOT NULL,
+						`med_dose` 	DOUBLE NOT NULL,
+						`med_times` INT(1) NOT NULL,
+						`med_stime` DATE NOT NULL,
+						`med_sptime` date  ,
+						
+					) ENGINE = MyISAM,AUTO_INCREMENT = 0
+
+[ 2018-05-29T01:26:39+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/new_classname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+NOTIC: [8] Undefined variable: con /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000651s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_5asa" ) LIMIT 1   [ RunTime:0.000157s ]
+SQL: INSERT INTO `med_belong_info` (`classname`) VALUES ('med_5asa') [ RunTime:0.000179s ]
+SQL: CREATE TABLE `ibdnew`.`med_5asa` 
+					( `cnum` VARCHAR(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+						`med_name` INT(3) NOT NULL,
+						`med_dose` 	DOUBLE NOT NULL,
+						`med_times` INT(1) NOT NULL,
+						`med_stime` DATE NOT NULL,
+						`med_sptime` date  ,
+						
+					) ENGINE = MyISAM,AUTO_INCREMENT = 0 [ RunTime:0.000097s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ENGINE = MyISAM,AUTO_INCREMENT = 0' at line 9
+ [ SQL语句 ] : CREATE TABLE `ibdnew`.`med_5asa` 
+					( `cnum` VARCHAR(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+						`med_name` INT(3) NOT NULL,
+						`med_dose` 	DOUBLE NOT NULL,
+						`med_times` INT(1) NOT NULL,
+						`med_stime` DATE NOT NULL,
+						`med_sptime` date  ,
+						
+					) ENGINE = MyISAM,AUTO_INCREMENT = 0
+
+[ 2018-05-29T01:27:35+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/new_classname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+NOTIC: [8] Undefined variable: con /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000567s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_corticosteroid" ) LIMIT 1   [ RunTime:0.000170s ]
+SQL: INSERT INTO `med_belong_info` (`classname`) VALUES ('med_corticosteroid') [ RunTime:0.017656s ]
+SQL: CREATE TABLE `ibdnew`.`med_corticosteroid` 
+					( `cnum` VARCHAR(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+						`med_name` INT(3) NOT NULL,
+						`med_dose` 	DOUBLE NOT NULL,
+						`med_times` INT(1) NOT NULL,
+						`med_stime` DATE NOT NULL,
+						`med_sptime` date  ,
+						
+					) ENGINE = MyISAM,AUTO_INCREMENT = 0 [ RunTime:0.000115s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ENGINE = MyISAM,AUTO_INCREMENT = 0' at line 9
+ [ SQL语句 ] : CREATE TABLE `ibdnew`.`med_corticosteroid` 
+					( `cnum` VARCHAR(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+						`med_name` INT(3) NOT NULL,
+						`med_dose` 	DOUBLE NOT NULL,
+						`med_times` INT(1) NOT NULL,
+						`med_stime` DATE NOT NULL,
+						`med_sptime` date  ,
+						
+					) ENGINE = MyISAM,AUTO_INCREMENT = 0
+
+[ 2018-05-29T01:28:39+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/new_classname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+NOTIC: [8] Undefined variable: con /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000646s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_5asa" ) LIMIT 1   [ RunTime:0.012088s ]
+
+[ 2018-05-29T01:29:25+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000617s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000156s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000114s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000100s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000093s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000097s ]
+
+[ 2018-05-29T01:29:32+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/new_classname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+NOTIC: [8] Undefined variable: con /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000538s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_corticosteroid" ) LIMIT 1   [ RunTime:0.000241s ]
+
+[ 2018-05-29T01:45:28+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/new_classname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+NOTIC: [8] Undefined variable: con /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000592s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_corticosteroid" ) LIMIT 1   [ RunTime:0.000149s ]
+SQL: INSERT INTO `med_belong_info` (`classname`) VALUES ('med_corticosteroid') [ RunTime:0.000171s ]
+SQL: CREATE TABLE `ibdnew`.`med_corticosteroid` 
+					( `cnum` VARCHAR(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+						`med_name` INT(3) NOT NULL,
+						`med_dose` 	DOUBLE NOT NULL,
+						`med_times` INT(1) NOT NULL,
+						`med_stime` DATE NOT NULL,
+						`med_sptime` date NULL
+					) ENGINE = MyISAM,AUTO_INCREMENT = 0 [ RunTime:0.004485s ]
+
+[ 2018-05-29T01:46:43+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/new_classname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+NOTIC: [8] Undefined variable: con /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000797s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_corticosteroid" ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: INSERT INTO `med_belong_info` (`classname`) VALUES ('med_corticosteroid') [ RunTime:0.000228s ]
+SQL: CREATE TABLE `ibdnew`.`med_corticosteroid` 
+					( `cnum` VARCHAR(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+						`med_name` INT(3) NOT NULL,
+						`med_dose` 	DOUBLE NOT NULL,
+						`med_times` INT(1) NOT NULL,
+						`med_stime` DATE NOT NULL,
+						`med_sptime` DATE NULL 
+					) ENGINE = MyISAM,AUTO_INCREMENT = 0 [ RunTime:0.004172s ]
+
+[ 2018-05-29T01:48:16+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_nMedicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000405s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_info` WHERE ( `belong` = 'med_corticosteroid' ) AND ( `med_name` = '泼尼松片' ) AND ( `pro_name` = '' ) AND ( `factory` = '' ) AND ( `specification` = '5mg/片' ) AND ( `med_type` = '片剂' ) AND ( `way` = 'po' )  [ RunTime:0.000353s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_corticosteroid" ) LIMIT 1   [ RunTime:0.000173s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong_id` FROM `med_info` WHERE ( belong = "med_corticosteroid" )  [ RunTime:0.016411s ]
+ERR: 1054:Unknown column 'belong_id' in 'field list'
+ [ SQL语句 ] : SELECT `belong_id` FROM `med_info` WHERE ( belong = "med_corticosteroid" ) 
+SQL: INSERT INTO `med_info` (`belong`,`med_name`,`pro_name`,`factory`,`specification`,`med_type`,`way`) VALUES ('med_corticosteroid','泼尼松片','','','5mg/片','片剂','po') [ RunTime:0.000262s ]
+
+[ 2018-05-29T01:48:24+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000615s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000152s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000112s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000116s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000109s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000113s ]
+
+[ 2018-05-29T01:55:36+08:00 ] 219.239.227.218 /ibdnew/index.php/Symptoms/save_sym
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+NOTIC: [2048] Declaration of SymptomsAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/SymptomsAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `symptoms` [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `sym_other` [ RunTime:0.000478s ]
+NOTIC: [8] Use of undefined constant symptom - assumed 'symptom' /webdata/ibdnew/Home/Lib/Action/SymptomsAction.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant symptom - assumed 'symptom' /webdata/ibdnew/Home/Lib/Action/SymptomsAction.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant symptom - assumed 'symptom' /webdata/ibdnew/Home/Lib/Action/SymptomsAction.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant symptom - assumed 'symptom' /webdata/ibdnew/Home/Lib/Action/SymptomsAction.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant symptom - assumed 'symptom' /webdata/ibdnew/Home/Lib/Action/SymptomsAction.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant symptom - assumed 'symptom' /webdata/ibdnew/Home/Lib/Action/SymptomsAction.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant symptom - assumed 'symptom' /webdata/ibdnew/Home/Lib/Action/SymptomsAction.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant symptom - assumed 'symptom' /webdata/ibdnew/Home/Lib/Action/SymptomsAction.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant symptom - assumed 'symptom' /webdata/ibdnew/Home/Lib/Action/SymptomsAction.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant symptom - assumed 'symptom' /webdata/ibdnew/Home/Lib/Action/SymptomsAction.class.php 第 27 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `symptoms` WHERE ( cnum = "1212" and check_time="2018-05-15" )  [ RunTime:0.000221s ]
+SQL: INSERT INTO `symptoms` (`cnum`,`check_time`,`symptom`,`signs`,`smoke`,`drink`,`lactose`,`abdomen`,`pregnancy`,`colon`) VALUES ('1212','2018-05-15','1111111135538',111111111,1,1,1,'11111111111',56,1) [ RunTime:0.000192s ]
+SQL: INSERT INTO `sym_other` (`cnum`,`check_time`,`symptom_other`,`signs_other`,`app_input`) VALUES ('1212','2018-05-15','hha','hha','2018-05-23') [ RunTime:0.000173s ]
+
+[ 2018-05-29T01:56:54+08:00 ] 219.239.227.218 /ibdnew/index.php/Diagnosis/save_diag
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+NOTIC: [2048] Declaration of DiagnosisAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/DiagnosisAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `diagnosis` [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `diag_onset` [ RunTime:0.000420s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `onset_time` FROM `diag_onset` WHERE ( cnum="1651" ) LIMIT 1   [ RunTime:0.000157s ]
+SQL: INSERT INTO `diag_onset` (`cnum`,`onset_time`) VALUES ('1651','2018-05-03') [ RunTime:0.000163s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `diagnosis` WHERE ( `cnum` = '1651' ) AND ( `diag_time` = '2018-05-16' ) AND ( `dis_area` = 1 ) AND ( `mayo` = 1 ) AND ( `complication` = 11111 ) AND ( `arthritis` = 1 ) AND ( `eye_inf` = 1 ) AND ( `liver` = 1 ) AND ( `skin` = 1 ) AND ( `embolism` = 1 ) AND ( `com_dis` = 'hah' )  [ RunTime:0.000211s ]
+SQL: INSERT INTO `diagnosis` (`cnum`,`diag_time`,`dis_area`,`mayo`,`complication`,`arthritis`,`eye_inf`,`liver`,`skin`,`embolism`,`com_dis`) VALUES ('1651','2018-05-16',1,1,11111,1,1,1,1,1,'hah') [ RunTime:0.000157s ]
+NOTIC: [8] Use of undefined constant skin - assumed 'skin' /webdata/ibdnew/Home/Lib/Action/DiagnosisAction.class.php 第 46 行.
+
+[ 2018-05-29T01:57:51+08:00 ] 219.239.227.218 /ibdnew/index.php/Diagnosis/save_diag
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+NOTIC: [2048] Declaration of DiagnosisAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/DiagnosisAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `diagnosis` [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `diag_onset` [ RunTime:0.000397s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `onset_time` FROM `diag_onset` WHERE ( cnum="1651" ) LIMIT 1   [ RunTime:0.000180s ]
+
+[ 2018-05-29T01:58:00+08:00 ] 219.239.227.218 /ibdnew/index.php/Diagnosis/save_diag
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+NOTIC: [2048] Declaration of DiagnosisAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/DiagnosisAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `diagnosis` [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `diag_onset` [ RunTime:0.000449s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `onset_time` FROM `diag_onset` WHERE ( cnum="1651" ) LIMIT 1   [ RunTime:0.000176s ]
+
+[ 2018-05-29T01:58:06+08:00 ] 219.239.227.218 /ibdnew/index.php/Diagnosis/save_diag
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [2048] Declaration of DiagnosisAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/DiagnosisAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `diagnosis` [ RunTime:0.000654s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `diagnosis` WHERE ( `cnum` = '1651' ) AND ( `diag_time` = '2018-05-16' ) AND ( `dis_area` = 2 ) AND ( `mayo` = 2 ) AND ( `complication` = 11111 ) AND ( `arthritis` = 2 ) AND ( `eye_inf` = 2 ) AND ( `liver` = 2 ) AND ( `skin` = 3 ) AND ( `embolism` = 1 ) AND ( `com_dis` = 'hah' )  [ RunTime:0.011045s ]
+SQL: INSERT INTO `diagnosis` (`cnum`,`diag_time`,`dis_area`,`mayo`,`complication`,`arthritis`,`eye_inf`,`liver`,`skin`,`embolism`,`com_dis`) VALUES ('1651','2018-05-16',2,2,11111,2,2,2,3,1,'hah') [ RunTime:0.000250s ]
+NOTIC: [8] Use of undefined constant skin - assumed 'skin' /webdata/ibdnew/Home/Lib/Action/DiagnosisAction.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `diag_other` [ RunTime:0.000647s ]
+SQL: INSERT INTO `diag_other` (`cnum`,`diag_time`,`skin_other`) VALUES ('1651','2018-05-16','hah') [ RunTime:0.000195s ]
+
+[ 2018-05-29T01:58:11+08:00 ] 219.239.227.218 /ibdnew/index.php/Diagnosis/save_diag
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+NOTIC: [2048] Declaration of DiagnosisAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/DiagnosisAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `diagnosis` [ RunTime:0.000661s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `diagnosis` WHERE ( `cnum` = '1651' ) AND ( `diag_time` = '2018-05-16' ) AND ( `dis_area` = 2 ) AND ( `mayo` = 2 ) AND ( `complication` = 11111 ) AND ( `arthritis` = 2 ) AND ( `eye_inf` = 2 ) AND ( `liver` = 2 ) AND ( `skin` = 3 ) AND ( `embolism` = 1 ) AND ( `com_dis` = 'hah' )  [ RunTime:0.000278s ]
+
+[ 2018-05-29T01:58:57+08:00 ] 219.239.227.218 /ibdnew/index.php/Diagnosis/save_diag
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+NOTIC: [2048] Declaration of DiagnosisAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/DiagnosisAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `diagnosis` [ RunTime:0.000946s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `diagnosis` WHERE ( `cnum` = '1651' ) AND ( `diag_time` = '2018-05-16' ) AND ( `dis_area` = 2 ) AND ( `mayo` = 2 ) AND ( `complication` = 11111 ) AND ( `arthritis` = 2 ) AND ( `eye_inf` = 3 ) AND ( `liver` = 2 ) AND ( `skin` = 3 ) AND ( `embolism` = 1 ) AND ( `com_dis` = 'hah' )  [ RunTime:0.000363s ]
+SQL: INSERT INTO `diagnosis` (`cnum`,`diag_time`,`dis_area`,`mayo`,`complication`,`arthritis`,`eye_inf`,`liver`,`skin`,`embolism`,`com_dis`) VALUES ('1651','2018-05-16',2,2,11111,2,3,2,3,1,'hah') [ RunTime:0.000197s ]
+NOTIC: [8] Use of undefined constant skin - assumed 'skin' /webdata/ibdnew/Home/Lib/Action/DiagnosisAction.class.php 第 46 行.
+SQL: SHOW COLUMNS FROM `diag_other` [ RunTime:0.000661s ]
+SQL: INSERT INTO `diag_other` (`cnum`,`diag_time`,`skin_other`) VALUES ('1651','2018-05-16','哈哈哈哈哈') [ RunTime:0.000159s ]
+
+[ 2018-05-29T01:59:49+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000628s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000153s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000118s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000145s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000112s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000113s ]
+
+[ 2018-05-29T02:00:06+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/newMedicine?query=%E9%98%BF%E6%96%AF%E9%A1%BF%E5%8F%91
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000620s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_info`  [ RunTime:0.000145s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 168 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 168 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 197 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 197 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 137 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009859s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000232s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000181s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000285s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2018-05-29T02:00:30+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000649s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= ""  )  [ RunTime:0.000148s ]
+ERR: 1054:Unknown column 'belong_id' in 'field list'
+ [ SQL语句 ] : SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= ""  ) 
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant med_name - assumed 'med_name' /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 29 行.
+
+[ 2018-05-29T02:01:11+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000605s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000129s ]
+ERR: 1054:Unknown column 'belong_id' in 'field list'
+ [ SQL语句 ] : SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  ) 
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant med_name - assumed 'med_name' /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 29 行.
+
+[ 2018-05-29T02:01:27+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000621s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000176s ]
+ERR: 1054:Unknown column 'belong_id' in 'field list'
+ [ SQL语句 ] : SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  ) 
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant med_name - assumed 'med_name' /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 29 行.
+
+[ 2018-05-29T02:01:32+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000660s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000134s ]
+ERR: 1054:Unknown column 'belong_id' in 'field list'
+ [ SQL语句 ] : SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  ) 
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant med_name - assumed 'med_name' /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 29 行.
+
+[ 2018-05-29T02:02:10+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000642s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000163s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000113s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000111s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000137s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000112s ]
+
+[ 2018-05-29T02:02:17+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000582s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000165s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000109s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000105s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000104s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000107s ]
+
+[ 2018-05-29T02:06:48+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000631s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000144s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000108s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000106s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000109s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000107s ]
+
+[ 2018-05-29T02:06:54+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000621s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000181s ]
+ERR: 1054:Unknown column 'belong_id' in 'field list'
+ [ SQL语句 ] : SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  ) 
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant med_name - assumed 'med_name' /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 29 行.
+
+[ 2018-05-29T02:07:33+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000628s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000131s ]
+ERR: 1054:Unknown column 'belong_id' in 'field list'
+ [ SQL语句 ] : SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  ) 
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant med_name - assumed 'med_name' /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 29 行.
+
+[ 2018-05-29T11:00:52+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000697s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000144s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000125s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000133s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000111s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000111s ]
+
+[ 2018-05-29T11:01:58+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000618s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000137s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000109s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000119s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000127s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000108s ]
+
+[ 2018-05-29T11:02:22+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000627s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000164s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000115s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000134s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000111s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000110s ]
+
+[ 2018-05-29T11:03:18+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000708s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000141s ]
+ERR: 1054:Unknown column 'belong_id' in 'field list'
+ [ SQL语句 ] : SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  ) 
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 28 行.
+NOTIC: [8] Use of undefined constant med_name - assumed 'med_name' /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 29 行.
+
+[ 2018-05-29T11:09:05+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/new_classname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+NOTIC: [8] Undefined variable: con /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 155 行.
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000824s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_corticosteroid" ) LIMIT 1   [ RunTime:0.000160s ]
+SQL: INSERT INTO `med_belong_info` (`classname`) VALUES ('med_corticosteroid') [ RunTime:0.000185s ]
+SQL: CREATE TABLE `ibdnew`.`med_corticosteroid` 
+					( `cnum` VARCHAR(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+						`med_name` INT(3) NOT NULL,
+						`med_dose` 	DOUBLE NOT NULL,
+						`med_times` INT(1) NOT NULL,
+						`med_stime` DATE NOT NULL,
+						`med_sptime` DATE NULL 
+					) ENGINE = MyISAM,AUTO_INCREMENT = 0 [ RunTime:0.003589s ]
+
+[ 2018-05-29T11:09:31+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000615s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000160s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000102s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000098s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000098s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000099s ]
+
+[ 2018-05-29T11:10:15+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_nMedicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000418s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_info` WHERE ( `belong` = 'med_corticosteroid' ) AND ( `med_name` = '泼尼松片' ) AND ( `pro_name` = '' ) AND ( `factory` = '' ) AND ( `specification` = '5mg/片' ) AND ( `med_type` = '片剂' ) AND ( `way` = 'po' )  [ RunTime:0.000194s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_corticosteroid" ) LIMIT 1   [ RunTime:0.000153s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong_id` FROM `med_info` WHERE ( belong = "med_corticosteroid" )  [ RunTime:0.000133s ]
+SQL: INSERT INTO `med_info` (`belong`,`med_name`,`pro_name`,`factory`,`specification`,`med_type`,`way`,`belong_id`) VALUES ('med_corticosteroid','泼尼松片','','','5mg/片','片剂','po',0) [ RunTime:0.000160s ]
+
+[ 2018-05-29T11:10:52+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000716s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000204s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000151s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000112s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000116s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000138s ]
+
+[ 2018-05-29T11:11:17+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000723s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000291s ]
+NOTIC: [8] Use of undefined constant med_name - assumed 'med_name' /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `med_corticosteroid` [ RunTime:0.000616s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_corticosteroid`  [ RunTime:0.000149s ]
+
+[ 2018-05-29T11:15:06+08:00 ] 219.239.227.218 /ibdnew/index.php/login/login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000623s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `passwd` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000228s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `uid` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000170s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `email` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000135s ]
+
+[ 2018-05-29T11:15:54+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000767s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000173s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000152s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000122s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000120s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000170s ]
+
+[ 2018-05-29T11:16:29+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000615s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000206s ]
+NOTIC: [8] Use of undefined constant med_name - assumed 'med_name' /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `med_corticosteroid` [ RunTime:0.000416s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_corticosteroid`  [ RunTime:0.000119s ]
+
+[ 2018-05-29T11:16:33+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000665s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000157s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000124s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000122s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000143s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000151s ]
+
+[ 2018-05-29T11:16:40+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000653s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000195s ]
+NOTIC: [8] Use of undefined constant med_name - assumed 'med_name' /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `med_corticosteroid` [ RunTime:0.000435s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_corticosteroid`  [ RunTime:0.000145s ]
+
+[ 2018-05-29T11:17:27+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000634s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000207s ]
+NOTIC: [8] Use of undefined constant med_name - assumed 'med_name' /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `med_corticosteroid` [ RunTime:0.000457s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_corticosteroid`  [ RunTime:0.000144s ]
+
+[ 2018-05-29T11:17:45+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000630s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000175s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000123s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000111s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000109s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000113s ]
+
+[ 2018-05-29T11:17:47+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.001041s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000267s ]
+NOTIC: [8] Use of undefined constant med_name - assumed 'med_name' /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `med_corticosteroid` [ RunTime:0.000655s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_corticosteroid`  [ RunTime:0.000194s ]
+
+[ 2018-05-29T11:18:00+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000761s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000156s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000120s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000198s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000146s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000143s ]
+
+[ 2018-05-29T11:18:02+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000971s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000279s ]
+NOTIC: [8] Use of undefined constant med_name - assumed 'med_name' /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `med_corticosteroid` [ RunTime:0.000725s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_corticosteroid`  [ RunTime:0.000248s ]
+
+[ 2018-05-29T11:18:09+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000639s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000228s ]
+NOTIC: [8] Use of undefined constant med_name - assumed 'med_name' /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `med_corticosteroid` [ RunTime:0.000407s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_corticosteroid`  [ RunTime:0.000136s ]
+
+[ 2018-05-29T11:30:20+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000647s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `med_corticosteroid` [ RunTime:0.000409s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_corticosteroid` WHERE ( `cnum` = '11516' ) AND ( `med_name` = 0 ) AND ( `med_stime` = '2018-05-01' )  [ RunTime:0.000196s ]
+SQL: INSERT INTO `med_corticosteroid` (`cnum`,`med_name`,`med_dose`,`med_times`,`med_stime`,`med_sptime`) VALUES ('11516',0,5,2,'2018-05-01','2018-05-01') [ RunTime:0.000179s ]
+
+[ 2018-05-29T11:30:22+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000686s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `med_corticosteroid` [ RunTime:0.000472s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_corticosteroid` WHERE ( `cnum` = '11516' ) AND ( `med_name` = 0 ) AND ( `med_stime` = '2018-05-01' )  [ RunTime:0.000214s ]
+
+[ 2018-05-29T12:46:02+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/new_classname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+NOTIC: [8] Undefined variable: con /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 156 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 156 行.
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000603s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_5aSa" ) LIMIT 1   [ RunTime:0.000162s ]
+SQL: INSERT INTO `med_belong_info` (`classname`) VALUES ('med_5aSa') [ RunTime:0.000191s ]
+SQL: CREATE TABLE `ibdnew`.`med_5aSa` 
+					( `cnum` VARCHAR(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+						`med_name` INT(3) NOT NULL,
+						`med_dose` 	DOUBLE NOT NULL,
+						`med_times` INT(1) NOT NULL,
+						`med_stime` DATE NOT NULL,
+						`med_sptime` DATE NULL 
+					) ENGINE = MyISAM,AUTO_INCREMENT = 0 [ RunTime:0.003838s ]
+
+[ 2018-05-29T12:46:07+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/new_classname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+NOTIC: [8] Undefined variable: con /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 156 行.
+NOTIC: [2] mysql_select_db() expects parameter 2 to be resource, null given /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 156 行.
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000552s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_5aSa" ) LIMIT 1   [ RunTime:0.000199s ]
+
+[ 2018-05-29T12:47:38+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_nMedicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000381s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_info` WHERE ( `belong` = 'med_5aSa' ) AND ( `med_name` = '柳氮磺吡啶肠溶片' ) AND ( `pro_name` = '' ) AND ( `factory` = '' ) AND ( `specification` = '0.25g/片' ) AND ( `med_type` = '片剂' ) AND ( `way` = 'po' )  [ RunTime:0.000241s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_5aSa" ) LIMIT 1   [ RunTime:0.000167s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong_id` FROM `med_info` WHERE ( belong = "med_5aSa" )  [ RunTime:0.000126s ]
+SQL: INSERT INTO `med_info` (`belong`,`med_name`,`pro_name`,`factory`,`specification`,`med_type`,`way`,`belong_id`) VALUES ('med_5aSa','柳氮磺吡啶肠溶片','','','0.25g/片','片剂','po',0) [ RunTime:0.000138s ]
+
+[ 2018-05-29T12:47:40+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_nMedicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000417s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_info` WHERE ( `belong` = 'med_5aSa' ) AND ( `med_name` = '柳氮磺吡啶肠溶片' ) AND ( `pro_name` = '' ) AND ( `factory` = '' ) AND ( `specification` = '0.25g/片' ) AND ( `med_type` = '片剂' ) AND ( `way` = 'po' )  [ RunTime:0.000233s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_5aSa" ) LIMIT 1   [ RunTime:0.000172s ]
+
+[ 2018-05-29T12:48:23+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000617s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000230s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000147s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000158s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000160s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000163s ]
+
+[ 2018-05-29T12:52:10+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000714s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `med_corticosteroid` [ RunTime:0.000448s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_corticosteroid` WHERE ( `cnum` = '1516' ) AND ( `med_name` = 0 ) AND ( `med_stime` = '2018-05-15' )  [ RunTime:0.000203s ]
+SQL: INSERT INTO `med_corticosteroid` (`cnum`,`med_name`,`med_dose`,`med_times`,`med_stime`,`med_sptime`) VALUES ('1516',0,1,1,'2018-05-15','2018-05-08') [ RunTime:0.000145s ]
+
+[ 2018-05-29T12:56:46+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000681s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000217s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000147s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000178s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000146s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000158s ]
+
+[ 2018-05-29T12:57:14+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_nMedicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000455s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_info` WHERE ( `belong` = 'med_5aSa' ) AND ( `med_name` = '柳氮磺吡啶栓' ) AND ( `pro_name` = '' ) AND ( `factory` = '' ) AND ( `specification` = '0.5g/粒' ) AND ( `med_type` = '栓剂' ) AND ( `way` = 'po' )  [ RunTime:0.000234s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_5aSa" ) LIMIT 1   [ RunTime:0.000174s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong_id` FROM `med_info` WHERE ( belong = "med_5aSa" )  [ RunTime:0.000143s ]
+SQL: INSERT INTO `med_info` (`belong`,`med_name`,`pro_name`,`factory`,`specification`,`med_type`,`way`,`belong_id`) VALUES ('med_5aSa','柳氮磺吡啶栓','','','0.5g/粒','栓剂','po',1) [ RunTime:0.000143s ]
+
+[ 2018-05-29T12:57:16+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000712s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000207s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000147s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000171s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000168s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000202s ]
+
+[ 2018-05-29T13:00:27+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000708s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000214s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000154s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000185s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000172s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000151s ]
+
+[ 2018-05-29T13:00:31+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_Medicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000711s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong`,`belong_id` FROM `med_info` WHERE ( med_name = "泼尼松片" and pro_name= "" and specification= "5mg/片"  )  [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `med_corticosteroid` [ RunTime:0.000393s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_corticosteroid` WHERE ( `cnum` = '11516' ) AND ( `med_name` = 0 ) AND ( `med_stime` = '2018-05-01' )  [ RunTime:0.000209s ]
+
+[ 2018-05-29T13:00:49+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_nMedicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000369s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_info` WHERE ( `belong` = 'med_5aSa' ) AND ( `med_name` = '柳氮磺吡啶栓' ) AND ( `pro_name` = '' ) AND ( `factory` = '' ) AND ( `specification` = '0.5g/粒' ) AND ( `med_type` = '栓剂' ) AND ( `way` = 'po' )  [ RunTime:0.000234s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_5aSa" ) LIMIT 1   [ RunTime:0.000151s ]
+
+[ 2018-05-29T13:02:06+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_nMedicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000441s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_info` WHERE ( `belong` = 'med_5aSa' ) AND ( `med_name` = '美沙拉秦缓释颗粒' ) AND ( `pro_name` = '艾迪莎' ) AND ( `factory` = '' ) AND ( `specification` = '0.5g/袋' ) AND ( `med_type` = '颗粒' ) AND ( `way` = 'po' )  [ RunTime:0.000225s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_5aSa" ) LIMIT 1   [ RunTime:0.000167s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `belong_id` FROM `med_info` WHERE ( belong = "med_5aSa" )  [ RunTime:0.000193s ]
+SQL: INSERT INTO `med_info` (`belong`,`med_name`,`pro_name`,`factory`,`specification`,`med_type`,`way`,`belong_id`) VALUES ('med_5aSa','美沙拉秦缓释颗粒','艾迪莎','','0.5g/袋','颗粒','po',2) [ RunTime:0.000152s ]
+
+[ 2018-05-29T13:02:09+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/save_nMedicine
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `med_belong_info` [ RunTime:0.000419s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `med_info` WHERE ( `belong` = 'med_5aSa' ) AND ( `med_name` = '美沙拉秦缓释颗粒' ) AND ( `pro_name` = '艾迪莎' ) AND ( `factory` = '' ) AND ( `specification` = '0.5g/袋' ) AND ( `med_type` = '颗粒' ) AND ( `way` = 'po' )  [ RunTime:0.000258s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `classname` FROM `med_belong_info` WHERE ( classname = "med_5aSa" ) LIMIT 1   [ RunTime:0.000164s ]
+
+[ 2018-05-29T13:02:22+08:00 ] 219.239.227.218 /ibdnew/index.php/Medicine/get_medname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+NOTIC: [2048] Declaration of MedicineAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/MedicineAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `med_info` [ RunTime:0.000680s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_name` FROM `med_info`  [ RunTime:0.000189s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `pro_name` FROM `med_info`  [ RunTime:0.000154s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `med_type` FROM `med_info`  [ RunTime:0.000178s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `specification` FROM `med_info`  [ RunTime:0.000147s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT DISTINCT  `belong` FROM `med_info`  [ RunTime:0.000179s ]
+
+[ 2018-05-29T13:05:57+08:00 ] 219.239.227.218 /ibdnew/index.php/Diagnosis/save_diag
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+NOTIC: [2048] Declaration of DiagnosisAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/DiagnosisAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `diagnosis` [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `diag_onset` [ RunTime:0.000403s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `onset_time` FROM `diag_onset` WHERE ( cnum="151515" ) LIMIT 1   [ RunTime:0.000179s ]
+SQL: INSERT INTO `diag_onset` (`cnum`,`onset_time`) VALUES ('151515','2018-05-09') [ RunTime:0.000158s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `diagnosis` WHERE ( `cnum` = '151515' ) AND ( `diag_time` = '2018-05-08' ) AND ( `dis_area` = 2 ) AND ( `mayo` = 2 ) AND ( `complication` = 111110 ) AND ( `arthritis` = 2 ) AND ( `eye_inf` = 2 ) AND ( `liver` = 2 ) AND ( `skin` = 2 ) AND ( `embolism` = 0 ) AND ( `com_dis` = '呵呵' )  [ RunTime:0.000205s ]
+SQL: INSERT INTO `diagnosis` (`cnum`,`diag_time`,`dis_area`,`mayo`,`complication`,`arthritis`,`eye_inf`,`liver`,`skin`,`embolism`,`com_dis`) VALUES ('151515','2018-05-08',2,2,111110,2,2,2,2,0,'呵呵') [ RunTime:0.000151s ]
+NOTIC: [8] Use of undefined constant skin - assumed 'skin' /webdata/ibdnew/Home/Lib/Action/DiagnosisAction.class.php 第 46 行.
+
+[ 2018-05-29T13:06:09+08:00 ] 219.239.227.218 /ibdnew/index.php/Diagnosis/save_diag
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2048] Declaration of DiagnosisAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/DiagnosisAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `diagnosis` [ RunTime:0.000809s ]
+SQL: SHOW COLUMNS FROM `diag_onset` [ RunTime:0.000480s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `onset_time` FROM `diag_onset` WHERE ( cnum="151515" ) LIMIT 1   [ RunTime:0.000193s ]
+
+[ 2018-05-29T13:06:58+08:00 ] 219.239.227.218 /ibdnew/index.php/Diagnosis/save_diag
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [2048] Declaration of DiagnosisAction::redirect() should be compatible with Action::redirect($url, $params = Array, $delay = 0, $msg = '') /webdata/ibdnew/Home/Lib/Action/DiagnosisAction.class.php 第 3 行.
+SQL: SHOW COLUMNS FROM `diagnosis` [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `diag_onset` [ RunTime:0.000449s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `onset_time` FROM `diag_onset` WHERE ( cnum="151515" ) LIMIT 1   [ RunTime:0.000217s ]
+

@@ -1,0 +1,22 @@
+[ 2018-10-06T09:28:05+08:00 ] 112.42.38.222 /ibdnew/index.php/login/login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000645s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `passwd` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000218s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `uid` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000173s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `email` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000139s ]
+
+[ 2018-10-06T09:28:46+08:00 ] 112.42.38.222 /ibdnew/index.php/test/save_lab_blood_regular_test/mode/0
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `lab-blood_regular_test` [ RunTime:0.000683s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-blood_regular_test` WHERE ( cnum = "15061072" AND time = "2018-09-04 00:00:00" ) LIMIT 1   [ RunTime:0.000232s ]
+SQL: INSERT INTO `lab-blood_regular_test` (`cnum`,`time`,`RBC`,`HGB`,`HCT`,`MCV`,`MCH`,`MCHC`,`WBC`,`NE`,`LY`,`MO`,`EO`,`PLT`) VALUES ('15061072','2018-09-04 00:00:00','','','','','','','','','','','','') [ RunTime:0.003620s ]
+NOTIC: [8] Use of undefined constant data - assumed 'data' /webdata/ibdnew/Home/Lib/Action/TestAction.class.php 第 468 行.
+

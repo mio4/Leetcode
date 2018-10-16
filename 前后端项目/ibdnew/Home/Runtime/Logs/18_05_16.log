@@ -1,0 +1,21 @@
+[ 2018-05-16T01:48:57+08:00 ] 219.239.227.205 /ibdnew/index.php/login/login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000670s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `passwd` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000195s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `uid` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000148s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `email` FROM `user` WHERE ( name="lnn970215" ) LIMIT 1   [ RunTime:0.000138s ]
+
+[ 2018-05-16T01:49:28+08:00 ] 219.239.227.205 /ibdnew/index.php/new/savePatient
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `basic` [ RunTime:0.000710s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT `cnum` FROM `basic` WHERE ( cnum = "213让" ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: INSERT INTO `basic` (`type`,`cnum`,`snum`,`name`,`sex`,`birth`,`province`,`telephone`,`mobile1`,`mobile2`,`doctor_in_charge`,`other`,`ethnic`) VALUES ('1','213让','34','234',1,'2018-05-07','撒旦法','234','234','23','','','') [ RunTime:0.003457s ]
+

@@ -1,0 +1,40 @@
+[ 2018-08-31T11:09:27+08:00 ] 124.65.138.106 /ibdnew/index.php/test/getInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `lab-thyroid_function` [ RunTime:0.000759s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-thyroid_function` WHERE ( cnum="2387225" and time = "2018-08-15 00:00:00" ) LIMIT 1   [ RunTime:0.000373s ]
+
+[ 2018-08-31T11:09:37+08:00 ] 124.65.138.106 /ibdnew/index.php/test/getInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `lab-ebv` [ RunTime:0.000849s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-ebv` WHERE ( cnum="2387225" and time = "2018-07-31 00:00:00" ) LIMIT 1   [ RunTime:0.000296s ]
+
+[ 2018-08-31T11:09:42+08:00 ] 124.65.138.106 /ibdnew/index.php/test/getInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `lab-cmv` [ RunTime:0.000698s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-cmv` WHERE ( cnum="2387225" and time = "2018-07-31 00:00:00" ) LIMIT 1   [ RunTime:0.000271s ]
+
+[ 2018-08-31T11:09:49+08:00 ] 124.65.138.106 /ibdnew/index.php/test/getInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `lab-tc_bc` [ RunTime:0.000855s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-tc_bc` WHERE ( cnum="2387225" and time = "2018-07-26 00:00:00" ) LIMIT 1   [ RunTime:0.000340s ]
+
+[ 2018-08-31T11:09:55+08:00 ] 124.65.138.106 /ibdnew/index.php/test/getInfo
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `lab-immune_globulin_complement_rf` [ RunTime:0.000811s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /webdata/ibdnew/ThinkPHP/Lib/Core/Db.class.php 第 605 行.
+SQL: SELECT * FROM `lab-immune_globulin_complement_rf` WHERE ( cnum="2387225" and time = "2018-07-26 00:00:00" ) LIMIT 1   [ RunTime:0.000299s ]
+
