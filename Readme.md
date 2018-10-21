@@ -2,9 +2,17 @@
 
 # LeetCode Personal Solutions
 
+[TOC]
+
  
 
+
+
  ## Dynamic Programming
+
+
+
+
 
 
 | Problem       | Solution(s) | Space | Time   | Note                        
@@ -17,10 +25,18 @@
 |               |             |       |        |
 
 
+
+### Summary about dynamic programming
+
+
+
+
+
 ## Greedy Algorithm
+
 | Problem       | Solution(s) | Space | Time   | Note                        
 | ------------- | ----------- | ----- | ------ | ---------------------- |
-| 120. Triangle | Bottom-up   | O(1)  | O(n^2) |  |
+| |    |  |  |  |
 |               |             |       |        |                              |
 |               |             |       |        |                              |
 |               |             |       |        |                             |
@@ -28,7 +44,33 @@
 |               |             |       |        ||
 
 
-## List
+
+### Summary about greedy algorithm
+
+
+
+
+
+## Divide and Conquer
+
+| Problem                  | Solution(s) | Space | Time | Note |
+| ------------------------ | ----------- | ----- | ---- | ---- |
+| 93. Restore IP Addresses |             | O()   | O()  |      |
+|                          |             |       |      |      |
+|                          |             |       |      |      |
+|                          |             |       |      |      |
+|                          |             |       |      |      |
+|                          |             |       |      |      |
+
+
+
+### Summary about divide and conquer
+
+
+
+
+
+## Linked List
 
 | Problem       | Solution(s) | Space | Time   | Note                        |
 | ------------- | ----------- | ----- | ------ | ---------------------- |
@@ -38,6 +80,12 @@
 |               |             |       |        |                             |
 |               |             |       |        |                             |
 |               |             |       |        ||
+
+
+
+### Summary about linked list 
+
+
 
 
 
@@ -54,6 +102,12 @@
 
 
 
+### Summary about string
+
+
+
+
+
 ## String
 
 | Problem       | Solution(s) | Space | Time   | Note                        |
@@ -64,3 +118,25 @@
 |               |             |       |        |                             |
 |               |             |       |        |                             |
 |               |             |       |        ||
+
+
+
+
+
+## Others
+
+>To figure out which part some solutions should be is troublesome...
+
+
+
+| Problem | Solution(s) | Space | Time | Note |
+| ------- | ----------- | ----- | ---- | ---- |
+|         |             | O()   | O()  |      |
+|         |             |       |      |      |
+|         |             |       |      |      |
+|         |             |       |      |      |
+|         |             |       |      |      |
+|         |             |       |      |      |
+
+
+
