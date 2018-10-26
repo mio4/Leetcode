@@ -6,6 +6,6 @@ public class Solution {
 	}
 
 	public static void main(String[] args){
-		System.out.println(sqrt());
+		System.out.println(sqrt(1));
 	}
 }
