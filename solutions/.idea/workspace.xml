@@ -1,45 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1416afc7-18e0-4cf0-80ad-04cc4ae68a17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_337/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/node/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/Solution.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/DynamicProgramming/ClimbingStairs/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/DynamicProgramming/EditDistance/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/DynamicProgramming/GrayCode/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/DynamicProgramming/JumpFloor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/DynamicProgramming/MinimumPathSum/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/DynamicProgramming/Triangle/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/Linkedlist/SortList/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/Linkedlist/SortList/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/Linkedlist/SortList/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/MathModeling/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/MathModeling/MM1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/String/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/Tmp/RestoreIpAddresses/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/out/production/Solution/Tmp/Sqrtx/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/DynamicProgramming/ClimbingStairs/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/DynamicProgramming/EditDistance/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/DynamicProgramming/GrayCode/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/DynamicProgramming/JumpFloor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/DynamicProgramming/MinimumPathSum/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/DynamicProgramming/Triangle/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/Linkedlist/SortList/MergeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/Linkedlist/SortList/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/MathModeling/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/MathModeling/MM1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/String/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/Tmp/RestoreIpAddresses/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Solution/src/Tmp/Sqrtx/Solution.java" beforeDir="false" />
-    </list>
+    <list default="true" id="1416afc7-18e0-4cf0-80ad-04cc4ae68a17" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,15 +16,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="32">
               <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/node/TreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -122,7 +75,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583039115666" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583039190849" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -148,12 +101,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583033591512</updated>
-      <workItem from="1583033595008" duration="2741000" />
+      <workItem from="1583033595008" duration="2944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2741000" />
+    <option name="totallyTimeSpent" value="2944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
