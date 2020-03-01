@@ -4,171 +4,73 @@
 
 [TOC]
 
----
+## How to solve problem
 
-new note here
+- [ ] final goal - bug free
 
+- [x] corner case
+  - [ ] 输入为空：数组为`[]`，对象为`null`
+  - [ ] 
 
+ 
 
-DFS
+## Binary Tree
 
-| Problem                               | Note |
-| ------------------------------------- | ---- |
-| [337. House Robber III](/Note/337.md) |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
-|                                       |      |
+- [ ] 
 
-
-
-
-
-
-
- ## Dynamic Programming
-
-
-
-
-
-
-| Problem       | Solution(s) | Space | Time   | Note                        
-| ------------- | ----------- | ----- | ------ | ---------------------- 
-| 120. Triangle | Bottom-up   | O(1)  | O(n^2) | 遍历二维数组，会改变原有的数组
-|  70. Climbing Stairs   | Fib         |     O(1)        |O(n)       |  斐波那契数列：使用迭代                                    
-|  64. Minimum Path Sum  | Graph           |     O(1)        | O(n^2)      |  遍历图，会修改原有的图                         
-|   89. Gray Code            |   Binary          | O(n)      | O(n^2)       |     格林码，二进制规律，位计算                        |
-|               |             |       |        |                             |
-|               |             |       |        |
-
-
-
-### Summary about dynamic programming
-
-
-
-
-
-## Greedy Algorithm
-
-| Problem       | Solution(s) | Space | Time   | Note                        
-| ------------- | ----------- | ----- | ------ | ---------------------- |
-| |    |  |  |  |
-|               |             |       |        |                              |
-|               |             |       |        |                              |
-|               |             |       |        |                             |
-|               |             |       |        |                             |
-|               |             |       |        ||
-
-
-
-### Summary about greedy algorithm
-
-
-
-
-
-## Divide and Conquer
-
-| Problem                  | Solution(s) | Space | Time | Note |
-| ------------------------ | ----------- | ----- | ---- | ---- |
-| 93. Restore IP Addresses |             | O()   | O()  |      |
-|                          |             |       |      |      |
-|                          |             |       |      |      |
-|                          |             |       |      |      |
-|                          |             |       |      |      |
-|                          |             |       |      |      |
-
-
-
-### Summary about divide and conquer
-
-
-
-
-
-## Linked List
-
-| Problem       | Solution(s) | Space | Time   | Note                        |
-| ------------- | ----------- | ----- | ------ | ---------------------- |
-|  |    | O() | O() |  |
-|               |             |       |        |                              |
-|               |             |       |        |                              |
-|               |             |       |        |                             |
-|               |             |       |        |                             |
-|               |             |       |        ||
-
-
-
-### Summary about linked list 
-
-
-
-
-
-## Array
-
-| Problem       | Solution(s) | Space | Time   | Note                        |
-| ------------- | ----------- | ----- | ------ | ---------------------- |
-|  |    | O()  | O() |  |
-|               |             |       |        |                              |
-|               |             |       |        |                              |
-|               |             |       |        |                             |
-|               |             |       |        |                             |
-|               |             |       |        ||
-
-
-
-### Summary about string
-
-
+| Problem                                       | Note                                           |
+| --------------------------------------------- | ---------------------------------------------- |
+| [337. House Robber III](/Note/337.md)         | 【DFS】二叉树约束求最大和                      |
+| [96. Unique Binary Search Trees](/Note/96.md) | 【递归】构造不同二叉树 -> 【DP】转换为线性问题 |
+|                                               |                                                |
+|                                               |                                                |
+|                                               |                                                |
+|                                               |                                                |
+|                                               |                                                |
+|                                               |                                                |
+|                                               |                                                |
+|                                               |                                                |
+|                                               |                                                |
+|                                               |                                                |
+|                                               |                                                |
+|                                               |                                                |
+|                                               |                                                |
+|                                               |                                                |
+|                                               |                                                |
+|                                               |                                                |
+|                                               |                                                |
 
 
 
 ## String
 
-| Problem       | Solution(s) | Space | Time   | Note                        |
-| ------------- | ----------- | ----- | ------ | ---------------------- |
-|  |    | O()  | O() |  |
-|               |             |       |        |                              |
-|               |             |       |        |                              |
-|               |             |       |        |                             |
-|               |             |       |        |                             |
-|               |             |       |        ||
+| Problem                        | Note                                     |
+| ------------------------------ | ---------------------------------------- |
+| [394. Decode String](/394.png) | 【递归】将string中的`[]`翻译成重复字符串 |
+|                                |                                          |
+|                                |                                          |
+|                                |                                          |
+
+## Special Data Structure
+
+| Problem                                           | Note                                          |
+| ------------------------------------------------- | --------------------------------------------- |
+| [128. Longest Consecutive Sequence](/Note/128.md) | 【哈希表】HashSet的add/delete/contains = O(1) |
+|                                                   |                                               |
+|                                                   |                                               |
+|                                                   |                                               |
 
 
 
 
 
-## Others
-
->To figure out which part some solutions should be is troublesome...
 
 
 
-| Problem | Solution(s) | Space | Time | Note |
-| ------- | ----------- | ----- | ---- | ---- |
-|         |             | O()   | O()  |      |
-|         |             |       |      |      |
-|         |             |       |      |      |
-|         |             |       |      |      |
-|         |             |       |      |      |
-|         |             |       |      |      |
+
+
+
+
 
 
 
