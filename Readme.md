@@ -56,11 +56,18 @@
 | Problem                                           | Note                                          |
 | ------------------------------------------------- | --------------------------------------------- |
 | [128. Longest Consecutive Sequence](/Note/128.md) | 【哈希表】HashSet的add/delete/contains = O(1) |
-|                                                   |                                               |
-|                                                   |                                               |
+| [76. Minimum Window Substring](/Note/76.md)       | 【★滑动窗口】                                 |
+| [32. Longest Valid Parentheses](/Note/32.md)      | 【★栈】找到最长的匹配括号子串                 |
 |                                                   |                                               |
 
+## DFS
 
+| Problem                        | Note |
+| ------------------------------ | ---- |
+| [79. Word Search](/Note/79.md) |      |
+|                                |      |
+|                                |      |
+|                                |      |
 
 
 
