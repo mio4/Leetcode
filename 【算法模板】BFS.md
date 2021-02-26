@@ -72,6 +72,29 @@ ArrayDeque作为双向队列需要关注的方法：
 
 
 
+## 备注：优先队列 PriorityQueue
+
+PriorityQueue和ArrayDeque用法需要特别区分
+
+```
+//需求背景
+需要保持一个一直升序排列的动态数组，涉及插入和删除操作
+```
+
+```java
+        Queue<Integer> queue = new PriorityQueue<>();
+				//1. 有序插入操作
+				queue.push(nums[i]);
+				//2. 有序删除操作
+				queue.poll();
+				//3. 判空
+				queue.isEmpty();
+```
+
+
+
+
+
 
 
 
